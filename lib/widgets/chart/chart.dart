@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:pract4/modals/exxpenses.dart';
 import 'package:pract4/widgets/chart/chart_bar.dart';
 
-
 class Chart extends StatelessWidget {
   const Chart({super.key, required this.expenses});
 
@@ -83,7 +82,6 @@ class Chart extends StatelessWidget {
                                 .primary
                                 .withOpacity(0.7),
                       ),
-                      
                     ),
                   ),
                 )
