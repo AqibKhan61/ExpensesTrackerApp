@@ -98,12 +98,14 @@ class _NewExpensesState extends State<NewExpenses> {
 
                  const SizedBox(width: 40),
                   Expanded(
+                    
                   child: TextField(
                     controller: _amountController,
                     keyboardType: TextInputType.number,
                     decoration: const InputDecoration(
                       label: Text('Amount'),
                       prefixText: '\$',
+                      
                     ),
                   ),
                 ),
